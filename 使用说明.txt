@@ -4,7 +4,7 @@
   2. 直接命令行：
 
   WeChatMsgExport.exe list              # 列出所有会话
-  WeChatMsgExport.exe export 陈俊蓉      # 导出指定联系人
+  WeChatMsgExport.exe export 用户名      # 导出指定联系人
   WeChatMsgExport.exe export-all        # 导出全部
 
 
