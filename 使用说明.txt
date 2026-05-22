@@ -1,0 +1,23 @@
+ 使用方式：
+
+  1. 双击 启动.bat → 弹出命令窗口 → 输入命令（如 list、export 用户名）
+  2. 直接命令行：
+
+  WeChatMsgExport.exe list              # 列出所有会话
+  WeChatMsgExport.exe export 陈俊蓉      # 导出指定联系人
+  WeChatMsgExport.exe export-all        # 导出全部
+
+
+命令用法
+
+  # 列出所有会话 (自动检测解密目录)
+  python wechat_export.py list
+
+  # 导出指定联系人
+  python wechat_export.py export "用户名"
+
+  # 导出全部会话
+  python wechat_export.py export-all
+
+  # 高级选项
+  python wechat_export.py export "用户名" -o ./输出 -f html -n 1000
