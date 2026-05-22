@@ -1,0 +1,25 @@
+# Build artifacts
+__pycache__/
+build/
+dist/
+*.spec
+*.exe
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Export output (user data)
+*.txt
+*.html
+output/
